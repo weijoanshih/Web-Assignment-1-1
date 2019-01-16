@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            color: white;
+            background-color: rgb(237, 116, 116);
+            font-size: 18px;
+            text-align: center;
+            line-height: 40px;
+            width: 800px;
+            height: 40px;
+            letter-spacing: 10px;
+        }
+        
+        body {
+            width: 800px;
+            height: 630px;
+            background-color: rgb(242, 229, 228);
+            border-top: 25px solid white;
+            border-bottom: 170px solid white;
+            border-right: 300px solid white;
+            border-left: 300px solid white;
+            padding: 20px;
+        }
+        
+        p {
+            font-size: 14px;
+        }
+        
+        table,
+        th,
+        td {
+            font-size: 15px;
+            padding: 2px;
+        }
+        
+        table caption {
+            font-size: 18px;
+            padding: 5px;
+        }
+        
+        table#t01 {
+            position: relative;
+            left: 500px;
+        }
+        
+        table#t03 {
+            width: 800px;
+            height: 300px;
+            border: 1px solid rgb(237, 116, 116);
+            border-collapse: collapse;
+        }
+        
+        table#t03 th {
+            background-color: rgb(237, 116, 116);
+        }
+        
+        table#t03 tr {
+            border: 1px solid rgb(237, 116, 116);
+        }
+        
+        table#t03 td {
+            border: 1px solid rgb(237, 116, 116);
+        }
+        
+        table#t03 tr#r01,
+        tr#r02,
+        tr#r03,
+        tr#r04,
+        td#d01,
+        td#d02,
+        td#d03 {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1><b>CONGRATULATIONS</b></h1>
+
+    <table id=t01>
+
+
+        <tr>
+            <td>Quotation#</td>
+            <td>20190104</td>
+        </tr>
+
+        <tr>
+            <td>Date:</td>
+            <td>Jan 4th, 2019</td>
+        </tr>
+
+        <tr>
+            <td>Sales:</td>
+            <td>Jo-an Shih</td>
+        </tr>
+
+        <tr>
+            <td>Printed at:</td>
+            <td>Jan 9th, 2019 10:45 PM</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <table id=t02>
+        <tr>
+            <td>Company:</td>
+            <td>Oh Yeah Renovation Inc.</td>
+        </tr>
+
+        <tr>
+            <td>Name:</td>
+            <td>Yan Lin</td>
+        </tr>
+
+        <tr>
+            <td>Address:</td>
+            <td>Unit 13, Wonderful Street, Toronto, Ontario, M6H 5K8 </td>
+        </tr>
+
+        <tr>
+            <td>Phone:</td>
+            <td>O:882-5252 H:520-1314</td>
+        </tr>
+    </table>
+
+    <table id="t03">
+
+        <caption><b><u>ITEM(S) INFORMATION</b></u>
+        </caption>
+        <br>
+        <tr>
+            <th>#</th>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Popcorn</td>
+            <td>[Snack] Salt and butter, lots of butter.</td>
+            <td id="d01">$ 500</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Corn Soup</td>
+            <td>[Soup] Healthy corn soup with eggs and ham.</td>
+            <td id="d02">$ 350</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Orange Juice</td>
+            <td>[Drink] Made by fresh orange, 1 box with 12 bottles.</td>
+            <td id="d03">$ 680</td>
+        </tr>
+
+        <tr id="r01">
+            <td colspan="3"><b>Subtotal</b></td>
+            <td><b>$ 1530</b></td>
+        </tr>
+
+        <tr id="r02">
+            <td colspan="3"><b>Applied Discount</b></td>
+            <td><b>- $50</b></td>
+        </tr>
+
+        <tr id="r03">
+            <td colspan="3"><b>HST (13%)</b></td>
+            <td><b>$ 192.40</b></td>
+        </tr>
+
+        <tr id="r04">
+            <td colspan="3"><b>Total Amount</b></td>
+            <td><b>$ 1672.40</b></td>
+        </tr>
+
+    </table>
+    <p><i>Note: Finally done my first homework! Yeah! ＾____＾</i></p>
+
+</body>
+
+</html>
